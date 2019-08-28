@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2807524223164453008CCBD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2807524123164453008CCBD2 /* AppDelegate.swift */; };
+		2807524423164453008CCBD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2807524323164453008CCBD2 /* ViewController.swift */; };
+		2807524723164453008CCBD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2807524523164453008CCBD2 /* Main.storyboard */; };
+		2807524A23164453008CCBD2 /* Gojek_Assignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2807524823164453008CCBD2 /* Gojek_Assignment.xcdatamodeld */; };
+		2807524C23164455008CCBD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2807524B23164455008CCBD2 /* Assets.xcassets */; };
+		2807524F23164455008CCBD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2807524D23164455008CCBD2 /* LaunchScreen.storyboard */; };
+		2807525A23164455008CCBD2 /* Gojek_AssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2807525923164455008CCBD2 /* Gojek_AssignmentTests.swift */; };
+		2807527A231651C0008CCBD2 /* ContactListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28075279231651C0008CCBD2 /* ContactListCollectionViewCell.swift */; };
+		28075280231657D8008CCBD2 /* GenericApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2807527C231657D8008CCBD2 /* GenericApiClient.swift */; };
+		28075281231657D8008CCBD2 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2807527D231657D8008CCBD2 /* Result.swift */; };
+		28075282231657D8008CCBD2 /* ApiPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2807527E231657D8008CCBD2 /* ApiPoint.swift */; };
+		28075283231657D8008CCBD2 /* SchoolinkApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2807527F231657D8008CCBD2 /* SchoolinkApiClient.swift */; };
+		28075285231658BA008CCBD2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28075284231658BA008CCBD2 /* Constants.swift */; };
+		28075287231665AF008CCBD2 /* ContactListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28075286231665AF008CCBD2 /* ContactListModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2807525623164455008CCBD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2807523623164453008CCBD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2807523D23164453008CCBD2;
+			remoteInfo = "Gojek-Assignment";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2807523E23164453008CCBD2 /* Gojek-Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gojek-Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2807524123164453008CCBD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2807524323164453008CCBD2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2807524623164453008CCBD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2807524923164453008CCBD2 /* Gojek_Assignment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Gojek_Assignment.xcdatamodel; sourceTree = "<group>"; };
+		2807524B23164455008CCBD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2807524E23164455008CCBD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2807525023164455008CCBD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2807525523164455008CCBD2 /* Gojek-AssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gojek-AssignmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2807525923164455008CCBD2 /* Gojek_AssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gojek_AssignmentTests.swift; sourceTree = "<group>"; };
+		2807525B23164455008CCBD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28075279231651C0008CCBD2 /* ContactListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListCollectionViewCell.swift; sourceTree = "<group>"; };
+		2807527C231657D8008CCBD2 /* GenericApiClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericApiClient.swift; sourceTree = "<group>"; };
+		2807527D231657D8008CCBD2 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		2807527E231657D8008CCBD2 /* ApiPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiPoint.swift; sourceTree = "<group>"; };
+		2807527F231657D8008CCBD2 /* SchoolinkApiClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolinkApiClient.swift; sourceTree = "<group>"; };
+		28075284231658BA008CCBD2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		28075286231665AF008CCBD2 /* ContactListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2807523B23164453008CCBD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2807525223164455008CCBD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2807523523164453008CCBD2 = {
+			isa = PBXGroup;
+			children = (
+				2807524023164453008CCBD2 /* Gojek-Assignment */,
+				2807525823164455008CCBD2 /* Gojek-AssignmentTests */,
+				2807523F23164453008CCBD2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2807523F23164453008CCBD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2807523E23164453008CCBD2 /* Gojek-Assignment.app */,
+				2807525523164455008CCBD2 /* Gojek-AssignmentTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2807524023164453008CCBD2 /* Gojek-Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				2807527B231657D8008CCBD2 /* Networking */,
+				2807526B23164D17008CCBD2 /* contactADDEDITModule */,
+				2807527223164D17008CCBD2 /* contactDetailsModule */,
+				2807526523164BBF008CCBD2 /* contactListModule */,
+				2807524123164453008CCBD2 /* AppDelegate.swift */,
+				2807524523164453008CCBD2 /* Main.storyboard */,
+				2807524B23164455008CCBD2 /* Assets.xcassets */,
+				2807524D23164455008CCBD2 /* LaunchScreen.storyboard */,
+				2807525023164455008CCBD2 /* Info.plist */,
+				2807524823164453008CCBD2 /* Gojek_Assignment.xcdatamodeld */,
+			);
+			path = "Gojek-Assignment";
+			sourceTree = "<group>";
+		};
+		2807525823164455008CCBD2 /* Gojek-AssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				2807525923164455008CCBD2 /* Gojek_AssignmentTests.swift */,
+				2807525B23164455008CCBD2 /* Info.plist */,
+			);
+			path = "Gojek-AssignmentTests";
+			sourceTree = "<group>";
+		};
+		2807526423164BAD008CCBD2 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				28075286231665AF008CCBD2 /* ContactListModel.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		2807526523164BBF008CCBD2 /* contactListModule */ = {
+			isa = PBXGroup;
+			children = (
+				2807526423164BAD008CCBD2 /* Entities */,
+				2807526A23164C77008CCBD2 /* view */,
+				2807526923164C6B008CCBD2 /* router */,
+				2807526823164C2F008CCBD2 /* interactor */,
+				2807526723164C21008CCBD2 /* presenter */,
+				2807526623164BF5008CCBD2 /* dataManager */,
+			);
+			path = contactListModule;
+			sourceTree = "<group>";
+		};
+		2807526623164BF5008CCBD2 /* dataManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = dataManager;
+			sourceTree = "<group>";
+		};
+		2807526723164C21008CCBD2 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		2807526823164C2F008CCBD2 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		2807526923164C6B008CCBD2 /* router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		2807526A23164C77008CCBD2 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				2807524323164453008CCBD2 /* ViewController.swift */,
+				28075279231651C0008CCBD2 /* ContactListCollectionViewCell.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		2807526B23164D17008CCBD2 /* contactADDEDITModule */ = {
+			isa = PBXGroup;
+			children = (
+				2807526C23164D17008CCBD2 /* dataManager */,
+				2807526D23164D17008CCBD2 /* presenter */,
+				2807526E23164D17008CCBD2 /* view */,
+				2807526F23164D17008CCBD2 /* interactor */,
+				2807527023164D17008CCBD2 /* Entities */,
+				2807527123164D17008CCBD2 /* router */,
+			);
+			path = contactADDEDITModule;
+			sourceTree = "<group>";
+		};
+		2807526C23164D17008CCBD2 /* dataManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = dataManager;
+			sourceTree = "<group>";
+		};
+		2807526D23164D17008CCBD2 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		2807526E23164D17008CCBD2 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		2807526F23164D17008CCBD2 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		2807527023164D17008CCBD2 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		2807527123164D17008CCBD2 /* router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		2807527223164D17008CCBD2 /* contactDetailsModule */ = {
+			isa = PBXGroup;
+			children = (
+				2807527323164D17008CCBD2 /* dataManager */,
+				2807527423164D17008CCBD2 /* presenter */,
+				2807527523164D17008CCBD2 /* view */,
+				2807527623164D17008CCBD2 /* interactor */,
+				2807527723164D17008CCBD2 /* Entities */,
+				2807527823164D17008CCBD2 /* router */,
+			);
+			path = contactDetailsModule;
+			sourceTree = "<group>";
+		};
+		2807527323164D17008CCBD2 /* dataManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = dataManager;
+			sourceTree = "<group>";
+		};
+		2807527423164D17008CCBD2 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		2807527523164D17008CCBD2 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		2807527623164D17008CCBD2 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		2807527723164D17008CCBD2 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		2807527823164D17008CCBD2 /* router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		2807527B231657D8008CCBD2 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				2807527C231657D8008CCBD2 /* GenericApiClient.swift */,
+				2807527D231657D8008CCBD2 /* Result.swift */,
+				2807527E231657D8008CCBD2 /* ApiPoint.swift */,
+				2807527F231657D8008CCBD2 /* SchoolinkApiClient.swift */,
+				28075284231658BA008CCBD2 /* Constants.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2807523D23164453008CCBD2 /* Gojek-Assignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2807525E23164455008CCBD2 /* Build configuration list for PBXNativeTarget "Gojek-Assignment" */;
+			buildPhases = (
+				2807523A23164453008CCBD2 /* Sources */,
+				2807523B23164453008CCBD2 /* Frameworks */,
+				2807523C23164453008CCBD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gojek-Assignment";
+			productName = "Gojek-Assignment";
+			productReference = 2807523E23164453008CCBD2 /* Gojek-Assignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2807525423164455008CCBD2 /* Gojek-AssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2807526123164455008CCBD2 /* Build configuration list for PBXNativeTarget "Gojek-AssignmentTests" */;
+			buildPhases = (
+				2807525123164455008CCBD2 /* Sources */,
+				2807525223164455008CCBD2 /* Frameworks */,
+				2807525323164455008CCBD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2807525723164455008CCBD2 /* PBXTargetDependency */,
+			);
+			name = "Gojek-AssignmentTests";
+			productName = "Gojek-AssignmentTests";
+			productReference = 2807525523164455008CCBD2 /* Gojek-AssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2807523623164453008CCBD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Amit;
+				TargetAttributes = {
+					2807523D23164453008CCBD2 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					2807525423164455008CCBD2 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 2807523D23164453008CCBD2;
+					};
+				};
+			};
+			buildConfigurationList = 2807523923164453008CCBD2 /* Build configuration list for PBXProject "Gojek-Assignment" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2807523523164453008CCBD2;
+			productRefGroup = 2807523F23164453008CCBD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2807523D23164453008CCBD2 /* Gojek-Assignment */,
+				2807525423164455008CCBD2 /* Gojek-AssignmentTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2807523C23164453008CCBD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2807524F23164455008CCBD2 /* LaunchScreen.storyboard in Resources */,
+				2807524C23164455008CCBD2 /* Assets.xcassets in Resources */,
+				2807524723164453008CCBD2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2807525323164455008CCBD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2807523A23164453008CCBD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28075281231657D8008CCBD2 /* Result.swift in Sources */,
+				2807524423164453008CCBD2 /* ViewController.swift in Sources */,
+				28075280231657D8008CCBD2 /* GenericApiClient.swift in Sources */,
+				2807527A231651C0008CCBD2 /* ContactListCollectionViewCell.swift in Sources */,
+				28075287231665AF008CCBD2 /* ContactListModel.swift in Sources */,
+				2807524A23164453008CCBD2 /* Gojek_Assignment.xcdatamodeld in Sources */,
+				28075282231657D8008CCBD2 /* ApiPoint.swift in Sources */,
+				28075283231657D8008CCBD2 /* SchoolinkApiClient.swift in Sources */,
+				2807524223164453008CCBD2 /* AppDelegate.swift in Sources */,
+				28075285231658BA008CCBD2 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2807525123164455008CCBD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2807525A23164455008CCBD2 /* Gojek_AssignmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2807525723164455008CCBD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2807523D23164453008CCBD2 /* Gojek-Assignment */;
+			targetProxy = 2807525623164455008CCBD2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2807524523164453008CCBD2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2807524623164453008CCBD2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2807524D23164455008CCBD2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2807524E23164455008CCBD2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2807525C23164455008CCBD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2807525D23164455008CCBD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2807525F23164455008CCBD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75N2AGZG6J;
+				INFOPLIST_FILE = "Gojek-Assignment/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Phloxblog.Gojek-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2807526023164455008CCBD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75N2AGZG6J;
+				INFOPLIST_FILE = "Gojek-Assignment/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Phloxblog.Gojek-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2807526223164455008CCBD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75N2AGZG6J;
+				INFOPLIST_FILE = "Gojek-AssignmentTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Phloxblog.Gojek-AssignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gojek-Assignment.app/Gojek-Assignment";
+			};
+			name = Debug;
+		};
+		2807526323164455008CCBD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75N2AGZG6J;
+				INFOPLIST_FILE = "Gojek-AssignmentTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Phloxblog.Gojek-AssignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gojek-Assignment.app/Gojek-Assignment";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2807523923164453008CCBD2 /* Build configuration list for PBXProject "Gojek-Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2807525C23164455008CCBD2 /* Debug */,
+				2807525D23164455008CCBD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2807525E23164455008CCBD2 /* Build configuration list for PBXNativeTarget "Gojek-Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2807525F23164455008CCBD2 /* Debug */,
+				2807526023164455008CCBD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2807526123164455008CCBD2 /* Build configuration list for PBXNativeTarget "Gojek-AssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2807526223164455008CCBD2 /* Debug */,
+				2807526323164455008CCBD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2807524823164453008CCBD2 /* Gojek_Assignment.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2807524923164453008CCBD2 /* Gojek_Assignment.xcdatamodel */,
+			);
+			currentVersion = 2807524923164453008CCBD2 /* Gojek_Assignment.xcdatamodel */;
+			path = Gojek_Assignment.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2807523623164453008CCBD2 /* Project object */;
+}
