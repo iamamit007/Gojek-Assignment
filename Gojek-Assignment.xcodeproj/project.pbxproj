@@ -26,6 +26,7 @@
 		28F1AECD23167A9F00FD9DCB /* ListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F1AECC23167A9F00FD9DCB /* ListInteractor.swift */; };
 		28F1AECF23167BC400FD9DCB /* ListWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F1AECE23167BC400FD9DCB /* ListWireFrame.swift */; };
 		28FED39A2317A48B002C4BA5 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FED3992317A48B002C4BA5 /* GradientView.swift */; };
+		28FED39C23180792002C4BA5 /* ContactDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FED39B23180791002C4BA5 /* ContactDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		28F1AECC23167A9F00FD9DCB /* ListInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListInteractor.swift; sourceTree = "<group>"; };
 		28F1AECE23167BC400FD9DCB /* ListWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListWireFrame.swift; sourceTree = "<group>"; };
 		28FED3992317A48B002C4BA5 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		28FED39B23180791002C4BA5 /* ContactDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -274,6 +276,7 @@
 		2807527523164D17008CCBD2 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				28FED39B23180791002C4BA5 /* ContactDetailsViewController.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -434,6 +437,7 @@
 				28075280231657D8008CCBD2 /* GenericApiClient.swift in Sources */,
 				2807527A231651C0008CCBD2 /* ContactListCollectionViewCell.swift in Sources */,
 				28F1AECF23167BC400FD9DCB /* ListWireFrame.swift in Sources */,
+				28FED39C23180792002C4BA5 /* ContactDetailsViewController.swift in Sources */,
 				28075287231665AF008CCBD2 /* ContactListModel.swift in Sources */,
 				28F1AECD23167A9F00FD9DCB /* ListInteractor.swift in Sources */,
 				28F1AEC92316769F00FD9DCB /* ContactListProtocols.swift in Sources */,
