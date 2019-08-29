@@ -21,6 +21,11 @@
 		28075283231657D8008CCBD2 /* SchoolinkApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2807527F231657D8008CCBD2 /* SchoolinkApiClient.swift */; };
 		28075285231658BA008CCBD2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28075284231658BA008CCBD2 /* Constants.swift */; };
 		28075287231665AF008CCBD2 /* ContactListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28075286231665AF008CCBD2 /* ContactListModel.swift */; };
+		28F1AEC92316769F00FD9DCB /* ContactListProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F1AEC82316769F00FD9DCB /* ContactListProtocols.swift */; };
+		28F1AECB23167A6A00FD9DCB /* ListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F1AECA23167A6A00FD9DCB /* ListPresenter.swift */; };
+		28F1AECD23167A9F00FD9DCB /* ListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F1AECC23167A9F00FD9DCB /* ListInteractor.swift */; };
+		28F1AECF23167BC400FD9DCB /* ListWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F1AECE23167BC400FD9DCB /* ListWireFrame.swift */; };
+		28FED39A2317A48B002C4BA5 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FED3992317A48B002C4BA5 /* GradientView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +57,11 @@
 		2807527F231657D8008CCBD2 /* SchoolinkApiClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolinkApiClient.swift; sourceTree = "<group>"; };
 		28075284231658BA008CCBD2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		28075286231665AF008CCBD2 /* ContactListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListModel.swift; sourceTree = "<group>"; };
+		28F1AEC82316769F00FD9DCB /* ContactListProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListProtocols.swift; sourceTree = "<group>"; };
+		28F1AECA23167A6A00FD9DCB /* ListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListPresenter.swift; sourceTree = "<group>"; };
+		28F1AECC23167A9F00FD9DCB /* ListInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListInteractor.swift; sourceTree = "<group>"; };
+		28F1AECE23167BC400FD9DCB /* ListWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListWireFrame.swift; sourceTree = "<group>"; };
+		28FED3992317A48B002C4BA5 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +103,7 @@
 		2807524023164453008CCBD2 /* Gojek-Assignment */ = {
 			isa = PBXGroup;
 			children = (
+				28FED3982317A46A002C4BA5 /* Utils */,
 				2807527B231657D8008CCBD2 /* Networking */,
 				2807526B23164D17008CCBD2 /* contactADDEDITModule */,
 				2807527223164D17008CCBD2 /* contactDetailsModule */,
@@ -127,6 +138,7 @@
 		2807526523164BBF008CCBD2 /* contactListModule */ = {
 			isa = PBXGroup;
 			children = (
+				28F1AEC72316767B00FD9DCB /* ListProtocols */,
 				2807526423164BAD008CCBD2 /* Entities */,
 				2807526A23164C77008CCBD2 /* view */,
 				2807526923164C6B008CCBD2 /* router */,
@@ -147,6 +159,7 @@
 		2807526723164C21008CCBD2 /* presenter */ = {
 			isa = PBXGroup;
 			children = (
+				28F1AECA23167A6A00FD9DCB /* ListPresenter.swift */,
 			);
 			path = presenter;
 			sourceTree = "<group>";
@@ -154,6 +167,7 @@
 		2807526823164C2F008CCBD2 /* interactor */ = {
 			isa = PBXGroup;
 			children = (
+				28F1AECC23167A9F00FD9DCB /* ListInteractor.swift */,
 			);
 			path = interactor;
 			sourceTree = "<group>";
@@ -161,6 +175,7 @@
 		2807526923164C6B008CCBD2 /* router */ = {
 			isa = PBXGroup;
 			children = (
+				28F1AECE23167BC400FD9DCB /* ListWireFrame.swift */,
 			);
 			path = router;
 			sourceTree = "<group>";
@@ -296,6 +311,22 @@
 			path = Networking;
 			sourceTree = "<group>";
 		};
+		28F1AEC72316767B00FD9DCB /* ListProtocols */ = {
+			isa = PBXGroup;
+			children = (
+				28F1AEC82316769F00FD9DCB /* ContactListProtocols.swift */,
+			);
+			path = ListProtocols;
+			sourceTree = "<group>";
+		};
+		28FED3982317A46A002C4BA5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				28FED3992317A48B002C4BA5 /* GradientView.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -399,13 +430,18 @@
 			files = (
 				28075281231657D8008CCBD2 /* Result.swift in Sources */,
 				2807524423164453008CCBD2 /* ViewController.swift in Sources */,
+				28FED39A2317A48B002C4BA5 /* GradientView.swift in Sources */,
 				28075280231657D8008CCBD2 /* GenericApiClient.swift in Sources */,
 				2807527A231651C0008CCBD2 /* ContactListCollectionViewCell.swift in Sources */,
+				28F1AECF23167BC400FD9DCB /* ListWireFrame.swift in Sources */,
 				28075287231665AF008CCBD2 /* ContactListModel.swift in Sources */,
+				28F1AECD23167A9F00FD9DCB /* ListInteractor.swift in Sources */,
+				28F1AEC92316769F00FD9DCB /* ContactListProtocols.swift in Sources */,
 				2807524A23164453008CCBD2 /* Gojek_Assignment.xcdatamodeld in Sources */,
 				28075282231657D8008CCBD2 /* ApiPoint.swift in Sources */,
 				28075283231657D8008CCBD2 /* SchoolinkApiClient.swift in Sources */,
 				2807524223164453008CCBD2 /* AppDelegate.swift in Sources */,
+				28F1AECB23167A6A00FD9DCB /* ListPresenter.swift in Sources */,
 				28075285231658BA008CCBD2 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

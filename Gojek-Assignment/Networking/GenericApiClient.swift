@@ -85,6 +85,8 @@ extension APIClient {
         
         let task = decodingTask(with: request, decodingType: T.self) { (json , error) in
             //MARK: change to main queue
+            
+            print(json)
             DispatchQueue.main.async {
                 print("@ayan------->raw json",json)
                 guard let json = json else {

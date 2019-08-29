@@ -19,7 +19,12 @@ import Foundation
 
 
 struct contactListResult:Decodable {
-    var contactItems :[ContactItems]
+    var id :Int?
+    var first_name:String?
+    var last_name:String?
+    var profile_pic:String?
+    var favorite :Bool?
+    var url:String?
 }
 struct ContactItems:Decodable {
     var id :Int?

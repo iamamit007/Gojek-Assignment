@@ -65,14 +65,20 @@ enum GenericFeed {
 extension GenericFeed: Apipoint {
     
     var base: String {
-        return  UserDefaults.standard.string(forKey: Constants.BASE_URL)!
+        return  Constants.BASE_URL
     }
     
     var path: String {
         
         switch self {
-        case .contacts: return "/contacts.json"
+        case .contacts: return base + urlEncodeString("/contacts.json")
        
         }
+    }
+    
+    
+    func urlEncodeString(_ endpoinr:String) ->String{
+        return endpoinr.addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed)!
+        
     }
 }
